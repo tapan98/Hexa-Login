@@ -1,0 +1,86 @@
+body {
+    background-color: #00101C;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: Courier, monospace;
+}
+
+h2.login-heading {
+    
+    color: #01d8d8 !important;
+
+}
+
+.login-hr {
+    
+    border: 2px solid rgba(0, 195, 255, 0);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px black;
+
+}
+
+.text-field {
+    padding: 10px;
+    margin-bottom: 10%;
+    background-color: #01293A;
+    width: 80%;
+    border: none;
+
+
+    color: #20bcff;
+    border-radius: 10px;
+}
+
+.text-field:hover {
+    box-shadow: 0 0 2px 2px #00101C;
+}
+
+.text-field::placeholder {
+    color: #20bcff7e;
+}
+
+.text-field:focus {
+    outline: none; 
+}
+
+.button-submit {
+    background-color: #01293A;
+    border-radius: 5px;
+    width: 40%;
+    height: 40px;
+    border: none;
+    color: #20bcff;
+    font-family: monospace;
+    
+}
+
+.button-submit:hover {
+    box-shadow: 0px 0px 2px 2px #00101C;
+}
+
+div.form-box {
+    background-color: rgba(0, 117, 153, 0.74);
+    
+    
+    clip-path: polygon(4.00% 0.00%,96.00% 0.00%,100.00% 5.00%,100.00% 95.00%,96.00% 100.00%,4.00% 100.00%,0.00% 95.00%,0.00% 5.00%);
+    
+    font-size: 20px;
+    
+    padding: 20px;
+    
+    width: 30%;
+    margin: auto;
+    margin-top: 10%;
+    
+}
+
+
+.message {
+    font-weight: bold;
+    text-shadow: 0px 0px 10px black;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0));
+    color: #01d8d8;
+    border-radius: 5px;
+}
